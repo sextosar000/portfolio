@@ -1,3 +1,4 @@
+//HOME PAGE JAVA//
 $(document).ready(function(){
     $("#look").click(function(){
       $("#look").fadeOut(700);
@@ -15,4 +16,7 @@ $(document).ready(function(){
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "beige";
   }  
+
+//ABOUT ME JAVA//

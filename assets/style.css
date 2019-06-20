@@ -1,3 +1,4 @@
+/*HOMEPAGE*/
 body{
     background-image: url(background1.jpg);
     background-size: cover;
@@ -6,6 +7,10 @@ body{
 .row{
     padding: 5%;
     margin-top: 5%;
+}
+a:active, a:hover, a:visited, a:link{
+    color: white;
+    text-decoration: none;
 }
 .slide-content{
     background-color: rgba(54, 54, 54, 0.411);
@@ -138,7 +143,6 @@ h2{
 h1, p{
     font-family: 'Indie Flower', cursive;
 }
-
 
 /*nav*/
 .sidenav {
