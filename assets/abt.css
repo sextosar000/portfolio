@@ -1,5 +1,5 @@
 body{
-    background-image: url(../assets/lukas-blazek-261681-unsplash.jpg);
+    background-image: url(../assets/aral-tasher-324864-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -50,3 +50,62 @@ body{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .about{
+      background-color: rgb(28, 39, 49);
+      color: lightslategrey;
+      width: 30%;
+      height: 50em;
+      overflow: scroll;
+      position: relative;
+      left: 25%;
+  }
+
+  .content{
+      padding: 5%;
+      margin-top: 20%;
+      z-index: 1;
+  }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    color: lightgrey;
+    text-align: right;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+}
+.rotateimg10 {
+  -webkit-transform:rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  position: fixed;
+  left: 20%;
+  top: 5%;
+  z-index: -1;
+}
+.rotateimg15 {
+  -webkit-transform:rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  position: fixed;
+  left: 5%;
+  top: 25%;
+  z-index: -1;
+}
+.rotateimg45 {
+  -webkit-transform:rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+  position: fixed;
+  left: 20%;
+  top: 45%;
+  z-index: -1;
+}
