@@ -68,14 +68,10 @@ body{
       z-index: 1;
   }
 
-  h1, h6{
+  h1{
     font-family: 'Dancing Script', cursive;
     color: lightgrey;
     text-align: right;
-}
-h6{
-  margin-right: 2em;
-  color: rgb(177, 191, 204);
 }
 
 p{
