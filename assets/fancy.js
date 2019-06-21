@@ -4,6 +4,10 @@ $(document).ready(function(){
       $("#look").fadeOut(700);
       $(".textbub").fadeIn(750);
     });
+
+    $("h1").click(function(){
+      $("#otters").fadeIn();
+    });
   });
 
 
@@ -18,5 +22,3 @@ $(document).ready(function(){
     document.getElementById("main").style.marginLeft= "0";
     document.body.style.backgroundColor = "beige";
   }  
-
-//ABOUT ME JAVA//

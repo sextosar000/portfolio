@@ -110,3 +110,9 @@ p{
   top: 45%;
   z-index: -1;
 }
+#otters{
+  display: none;
+  position: fixed;
+  bottom: 10%;
+  left: 9%;
+}
