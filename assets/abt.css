@@ -77,6 +77,11 @@ body{
 p{
   font-family: 'Indie Flower', cursive;
 }
+a:active, a:hover, a:visited, a:link{
+  color: lightslategray;
+  text-decoration: none;
+}
+
 .rotateimg10 {
   -webkit-transform:rotate(10deg);
   -moz-transform: rotate(10deg);
