@@ -28,11 +28,6 @@ $(document).ready(function(){
   jQuery(document).ready(function() {
      
     /*
-        Fullscreen background
-    */
-    $.backstretch("assets/img/backgrounds/1.jpg");
-     
-    /*
     Contact form
     */
     $('.contact-form form input[type="text"], .contact-form form textarea').on('focus', function() {
