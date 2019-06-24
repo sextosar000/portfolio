@@ -12,7 +12,7 @@ body{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #141427;
+    background-color: rgb(36, 48, 59);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -22,7 +22,7 @@ body{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: lightgrey;
     font-family: 'Indie Flower', cursive;
     display: block;
     transition: 0.3s;
@@ -67,6 +67,11 @@ body{
       margin-top: 20%;
       z-index: 1;
   }
+  #copyright{
+    position: fixed;
+    bottom: 1%;
+    font-size: 1em;
+}
 
   h1{
     font-family: 'Dancing Script', cursive;
@@ -74,12 +79,16 @@ body{
     text-align: right;
 }
 
-p{
+p, .otters{
   font-family: 'Indie Flower', cursive;
 }
 a:active, a:hover, a:visited, a:link{
   color: lightslategray;
   text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 .rotateimg10 {

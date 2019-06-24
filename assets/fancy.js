@@ -5,7 +5,7 @@ $(document).ready(function(){
       $(".textbub").fadeIn(750);
     });
 
-    $("h1").click(function(){
+    $(".otters").click(function(){
       $("#otters").fadeIn();
     });
   });

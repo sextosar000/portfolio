@@ -1,5 +1,6 @@
 /*HOMEPAGE*/
 body{
+    background-color: rgb(35, 29, 63);
     background-image: url(background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,6 +34,15 @@ a:active, a:hover, a:visited, a:link{
     position: fixed;
     left: 65%;
     top: 9%;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+#copyright{
+    position: fixed;
+    bottom: 1%;
+    font-size: 1em;
 }
 /*DOOR EFFECT*/
 .reveal-wrapper{
