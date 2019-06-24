@@ -52,7 +52,7 @@
 }
   /*credits*/
   #credits{
-    background-color: #121f31;
+    background-color: #121f31b6;
     color: rgb(177, 198, 202);
     position: fixed;
     left: 25%;
@@ -89,12 +89,23 @@ marquee{
 
 
 /*contact*/
-#contact{
-    width: 30%;
-    height: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
+.contact{
+    background-color: rgba(145, 145, 145, 0.5);
     border: 2px solid black;
-    position: fixed;
-    left: 20%;
-    top: 10%;
+    position: relative;
+    right: 20%;
+    height: 100vh;
+    width: 50%;
+    color: rgb(154, 172, 189);
+}
+h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 2%;
+}
+#hexagons{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 80%;
 }
