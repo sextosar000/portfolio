@@ -105,4 +105,68 @@ h2{
     padding-top: 2%;
     padding-left: 5%;
 }
+.star{
+  height: 7px;
+  width: 7px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 50%;
+  display: inline-block;
+}
+#stars{
+  height: 50vh;
+  width: 100vh;
+}
 
+/*TWINKLING STARS*/
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 5s infinite;
+   -moz-animation: flickerAnimation 5s infinite;
+   -o-animation: flickerAnimation 5s infinite;
+   animation: flickerAnimation 5s infinite;
+}
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flickers {
+   -webkit-animation: flickerAnimation 7s infinite;
+   -moz-animation: flickerAnimation 7s infinite;
+   -o-animation: flickerAnimation 7s infinite;
+   animation: flickerAnimation 7s infinite;
+}
