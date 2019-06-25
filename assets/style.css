@@ -46,7 +46,7 @@ a:active, a:hover, a:visited, a:link{
 }
 /*DOOR EFFECT*/
 .reveal-wrapper{
-    border:solid 2px rgba(0, 0, 0, 0.411);
+    border:solid 2px rgba(22, 0, 37, 0.301);
     position: relative;
 }
 .reveal-wrapper:hover .reveal-top-left{

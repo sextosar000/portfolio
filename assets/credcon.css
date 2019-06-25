@@ -90,22 +90,19 @@ marquee{
 
 /*contact*/
 .contact{
-    background-color: rgba(145, 145, 145, 0.5);
-    border: 2px solid black;
-    position: relative;
-    right: 20%;
-    height: 100vh;
-    width: 50%;
+    background-color: rgba(10, 10, 10, 0.5);
+    position: fixed;
+    bottom: 0;
+    height: 40vh;
+    width: 100vw;
     color: rgb(154, 172, 189);
+    border-top: 2px solid black;
 }
 h2{
-    text-align: center;
+    text-align: left;
     font-family: 'Dancing Script', cursive;
+    font-size: 3em;
     padding-top: 2%;
+    padding-left: 5%;
 }
-#hexagons{
-    position: relative;
-    top: 25%;
-    left: 10%;
-    width: 80%;
-}
+
