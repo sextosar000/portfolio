@@ -106,9 +106,11 @@ h2{
     padding-left: 5%;
 }
 .star{
-  height: 7px;
-  width: 7px;
+  height: 3px;
+  width: 3px;
   background-color: rgb(236, 236, 236);
+  box-shadow:
+        0 0 40px 10px #fff;
   border-radius: 50%;
   display: inline-block;
 }
