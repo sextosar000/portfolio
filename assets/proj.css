@@ -1,3 +1,9 @@
+body{
+  background-image: url(../assets/arto-marttinen-pQS0ETF3KTI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /*nav*/
 .sidenav {
     height: 100%;
@@ -49,4 +55,35 @@
     position: fixed;
     bottom: 1%;
     font-size: 1em;
+}
+#projs{
+  width: 80%;
+  height: 50em;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: none;
+}
+img{
+  width: 40%;
+}
+#hex1{
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+#hex2{
+  position: relative;
+  top: 27%;
+  left: -1%;
+}
+#hex3{
+  position: relative;
+  top: 27%;
+  left: 21%;
+}
+#hex4{
+  position: absolute;
+  left: 30%;
+  top: 52%;
 }

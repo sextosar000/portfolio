@@ -9,7 +9,7 @@ $(document).ready(function(){
       $("#otters").fadeIn();
     });
 
-
+    $("#projs").fadeIn(500);
   });
 
 
