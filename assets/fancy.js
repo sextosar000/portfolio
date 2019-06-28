@@ -1,5 +1,7 @@
 //HOME PAGE JAVA//
 $(document).ready(function(){
+  $("#projs").delay(1000).fadeIn(500);
+
     $("#look").click(function(){
       $("#look").fadeOut(700);
       $(".textbub").fadeIn(750);
@@ -9,7 +11,6 @@ $(document).ready(function(){
       $("#otters").fadeIn();
     });
 
-    $("#projs").fadeIn(500);
   });
 
 
