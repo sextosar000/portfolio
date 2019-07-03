@@ -124,7 +124,7 @@ a:active, a:hover, a:visited, a:link{
 }
 .textbub{
     display: none;
-    width: 38%;
+    width: max-content;
     background-color: rgba(255, 255, 255, .7);
     border: 2px solid white;
     border-radius: 5px;
