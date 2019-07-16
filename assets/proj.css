@@ -58,7 +58,7 @@ body{
 }
 #projs{
   width: 80%;
-  height: 50em;
+  height: 70em;
   position: absolute;
   top: 30%;
   left: 10%;
@@ -74,18 +74,23 @@ img{
 }
 #hex2{
   position: relative;
-  top: 27%;
+  top: 20%;
   left: -1%;
 }
 #hex3{
   position: relative;
-  top: 27%;
+  top: 20%;
   left: 21%;
 }
 #hex4{
   position: absolute;
   left: 30%;
-  top: 52%;
+  top: 38.3%;
+}
+#hex5{
+  position: absolute;
+  top: 58%;
+  left: 0%;
 }
 h1{
   color: white;
