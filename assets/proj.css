@@ -143,3 +143,7 @@ h1{
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: 10;
 }
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
